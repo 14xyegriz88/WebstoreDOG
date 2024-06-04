@@ -21,7 +21,7 @@ const Left = styled.div`
     position: absolute;
     font-size: 55px;
     bottom: 500px;
-    right: 1100px;
+    right: 1220px;
 `
 const Center = styled.div`
     position: absolute;
@@ -35,17 +35,27 @@ const Right = styled.div`
 `
 const Left_butons = styled.div`
     position: absolute;
-    font-size: 30px;
     bottom: 350px;
     right: 1350px;
     
 `
 const Button1 = styled.button`
-    
+    font-size: 25px;
+    border-radius: 24px;
+    width: 164px;
+    height: 68px;
+    background-color: #E27B3A;
+    color: white;
+    border: none;
 `
 
 const Button2 = styled.button`
-    
+    font-size: 25px;
+    border-radius: 24px;
+    width: 164px;
+    height: 68px;
+    border: 2px solid #E27B3A;
+    color: #E27B3A;
 `
 
 const First = () => {
@@ -58,7 +68,7 @@ const First = () => {
             </Left>
 
             <Left_butons>
-                <Button1>купить </Button1>
+                <Button1>купить</Button1>
                 <Button2>детали</Button2>
             </Left_butons>
 

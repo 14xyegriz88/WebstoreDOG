@@ -6,7 +6,7 @@ const Container = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     font-weight: 525px;
-    height: 693px;
+    height: 500px;
 `
 
 const Wrapper = styled.div`
@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 const Center = styled.div`
     position: absolute;
     left: -1350px;
-    bottom: -550px;
+    top: 50px;
 `
 
 
