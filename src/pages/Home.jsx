@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import First from '../components/First'
 import Second from '../components/Second'
 import Three from '../components/Three'
+import Four from '../components/Four'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <First/>
     <Second/>
     <Three/>
+    <Four/>
    </div> 
    
   )

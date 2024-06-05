@@ -37,7 +37,6 @@ const Left_butons = styled.div`
     position: absolute;
     bottom: 350px;
     right: 1350px;
-    
 `
 const Button1 = styled.button`
     font-size: 25px;
@@ -51,6 +50,7 @@ const Button1 = styled.button`
 
 const Button2 = styled.button`
     font-size: 25px;
+    margin-left: 30px;
     border-radius: 24px;
     width: 164px;
     height: 68px;
