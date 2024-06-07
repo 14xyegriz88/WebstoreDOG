@@ -63,6 +63,7 @@ const Button = styled.button`
     border: 2px solid #E27B3A;
     border-width: 1px;
     color: #E27B3A;
+    font-weight: 450;
 `
 
 const Button2 = styled.div`

@@ -27,6 +27,11 @@ const ControlPanel = styled.div`
     display: flex;
     grid-gap: 15px;
     float: right;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
 `
 
 const Menu = styled.div`
@@ -45,6 +50,10 @@ const Logo_left = styled.div`
 
 const Logo_item = styled.div`
     margin-left: 20px;
+    a{
+        text-decoration: none;
+        color: black; 
+    }
 `
 
 const Navbar = () => {
@@ -53,9 +62,9 @@ const Navbar = () => {
         <Wrapper>
             <Left>
                 <Logo_left>
-                    <img src={Logo} alt="" />
+                    <a href='/'><img src={Logo} alt="" /></a>
                     <Logo_item>
-                        DOG   
+                        <a href='/'>DOG </a>  
                     </Logo_item>
                 </Logo_left>
                 
@@ -79,7 +88,7 @@ const Navbar = () => {
             <Right>
                 <ControlPanel>
                     <SearchIcon style={{fontSize:30}} />
-                    <ShoppingCartIcon style={{fontSize:30}} />
+                    <a href='/cart'><ShoppingCartIcon style={{fontSize:30}} /></a>
                     <MenuIcon style={{fontSize:30}} />
                 </ControlPanel>
             </Right>

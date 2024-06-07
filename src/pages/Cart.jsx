@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/cart/Navbar_cart'
+import Navbar_cart from '../components/cart/Navbar_cart'
 
 const cart = () => {
   return (

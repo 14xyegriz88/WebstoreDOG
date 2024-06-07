@@ -68,8 +68,8 @@ const First = () => {
             </Left>
 
             <Left_butons>
-                <Button1>купить</Button1>
-                <Button2>детали</Button2>
+                <Button1>Купить</Button1>
+                <Button2>Детали</Button2>
             </Left_butons>
 
             <Center>
