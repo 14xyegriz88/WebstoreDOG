@@ -16,12 +16,14 @@ const Wrapper = styled.div`
 `
 const Left = styled.div`
     flex: 2;
+    padding-left: 100px;
 `
 const Center = styled.div`
     flex: 3;
 `
 const Right = styled.div`
     flex: 1;
+    padding-right: 100px;
 `
 const ControlPanel = styled.div`
     display: flex;
