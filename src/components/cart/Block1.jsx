@@ -67,10 +67,17 @@ const ProductCardTextP = styled.div`
     padding-top: 10px;
 `
 const ProductCardLeft = styled.div`
-    
+
 `
-const ProductCardLeftButtons = styled.div`
-    
+const ProductCardLeftButtons1 = styled.div`
+    display: flex;
+    margin-top: 35px;
+    margin-left: 204px;
+`
+const ProductCardLeftButtons2 = styled.div`
+    display: flex;
+    margin-left: 300px;
+    margin-top: 35px;
 `
 const ButtonMinus = styled.button`
     border: none;
@@ -89,7 +96,10 @@ const Input = styled.input`
     width: 25px;
     border-radius: 3px;
     border-style: none;
-    outline: none;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
 
 
     Input::-webkit-outer-spin-button,
@@ -100,7 +110,37 @@ const Input = styled.input`
 `
 
 const ProductCardLeftPrice = styled.div`
-    
+    padding-left: 700px;
+    position: relative;
+    top: -20px;
+`
+const ProductCardLeftPrice2 = styled.div`
+    padding-left: 800px;
+    position: relative;
+    top: -20px;
+`
+const ProductCardLeftPriceIt = styled.div`
+    font-size: 26px;
+    font-weight: 500;
+    color: #E27B3A;
+`
+const ProductCardLeftPriceIt2 = styled.div`
+
+    p{
+        font-size: 16px;
+        opacity: calc(40%);
+
+    }
+
+    p:before {
+        content: "";
+        border-bottom: 2px solid #ff6200;   
+        position: absolute;
+        right: 45px;
+        width: 40px;
+        height: 8px;
+        transform: rotate(-12deg);
+    }
 `
 const ProductCardLeftIcon = styled.div`
     
@@ -115,8 +155,11 @@ const Block1 = () => {
         if ((charCode >= 1040 && charCode <= 1071) || (charCode >= 1072 && charCode <= 1103) || (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)
             || (charCode < 48 || (charCode > 57 && charCode < 65) || (charCode > 90 && charCode < 97) || charCode > 122)) {
           event.preventDefault();
+          
         }
+        
       };
+      
       
   return (
     <Container>
@@ -125,6 +168,7 @@ const Block1 = () => {
                 <CartItem>
                 <p>Ваша корзина 2шт.</p>
                 </CartItem>
+
                 <ProductCard>
                     <ProductIcon>
                         <img class='Icon1' src={Korm} alt="" />
@@ -136,12 +180,23 @@ const Block1 = () => {
                             <p>Арт. ПП789270912</p>
                         </ProductCardTextP>
                     </ProductCardText>
+
                     <ProductCardLeft>
-                        <ProductCardLeftButtons>
+                        <ProductCardLeftButtons1>
                             <ButtonMinus><RemoveIcon/></ButtonMinus>
                             <Input type='text'  defaultValue={1} maxLength={2} onKeyPress={handleKeyDown} />
                             <ButtonPlus><AddIcon /></ButtonPlus>
-                        </ProductCardLeftButtons>
+                        </ProductCardLeftButtons1>
+
+                        <ProductCardLeftPrice>
+                        <ProductCardLeftPriceIt>
+                            3000 ₽
+                        </ProductCardLeftPriceIt>
+                        <ProductCardLeftPriceIt2>
+                            <p>4000 ₽</p>
+                        </ProductCardLeftPriceIt2>
+                    </ProductCardLeftPrice>
+
                     </ProductCardLeft>
                 </ProductCard>
 
@@ -156,13 +211,23 @@ const Block1 = () => {
                             <p>Арт. ПВ232091124</p>
                         </ProductCardTextP>
                     </ProductCardText>
-                    <ProductCardLeft>
-                        <ProductCardLeftButtons>
-                            <ButtonMinus><RemoveIcon/></ButtonMinus>
-                            <Input type='text'  defaultValue={1} maxLength={2} onKeyPress={handleKeyDown} />
-                            <ButtonPlus><AddIcon /></ButtonPlus>
-                        </ProductCardLeftButtons>
-                    </ProductCardLeft>
+
+                 <ProductCardLeft>
+                    <ProductCardLeftButtons2>
+                        <ButtonMinus class='ButtonMinus'><RemoveIcon/></ButtonMinus>
+                        <Input type='text'  defaultValue={1} maxLength={2} onKeyPress={handleKeyDown} />
+                        <ButtonPlus class='ButtonPlus'><AddIcon /></ButtonPlus>
+                    </ProductCardLeftButtons2>
+
+                    <ProductCardLeftPrice2>
+                        <ProductCardLeftPriceIt>
+                            2500 ₽
+                        </ProductCardLeftPriceIt>
+                        <ProductCardLeftPriceIt2>
+                            <p>5000 ₽</p>
+                        </ProductCardLeftPriceIt2>
+                    </ProductCardLeftPrice2>
+                 </ProductCardLeft>
                 </ProductCard>
             </Cart>
         </Wrapper>
