@@ -45,9 +45,11 @@ $git clone "https://github.com/14xyegriz88/WebstoreDOG.git"
 ```sh
 cd WebstoreDOG
 ```
+![Image alt](https://github.com/14xyegriz88/WebstoreDOG/blob/main/image.png)
 ```sh
 npm run dev 
 ```
+
 
 ## Наши планы
 - [Исправление Багов](https://github.com/14xyegriz88/WebstoreDOG/issues)
