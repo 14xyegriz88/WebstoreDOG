@@ -20,7 +20,7 @@
 
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
-- [About site](#about)
+ [About site](#about)
 
 Сайт с открытым кодом, разработанный для магазина зоотоваров
 
