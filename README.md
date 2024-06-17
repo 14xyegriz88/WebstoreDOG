@@ -27,18 +27,28 @@
 ![Image alt](https://github.com/14xyegriz88/WebstoreDOG/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-06-14%20152550.png)
 
 </div>
-### Мы использовали в данном коде данные библиотеки:
+
+## Мы использовали в данном коде данные библиотеки:
 
 - [React](https://github.com/reactjs/react.dev)
 - [GitHub Actions](https://github.com/features/actions)
 - [styled-components](https://github.com/styled-components/styled-components)
 
- [About team](#about)
-Мы команада из 4 молодых разработчиков
+## Как начать работу с кодом
 
-у нас есть необходимые знания для комфортной и быстрой работы
 
-в нашей команде 4 человека
+### В терминале Git Bash
+```sh
+$git clone "https://github.com/14xyegriz88/WebstoreDOG.git"
+```
+### В терминале Powershell
+```sh
+cd WebstoreDOG
+```
+```sh
+npm run dev 
+```
 
-Иван, Шамиль, Алексей, Степан
-
+## Наши планы
+- [Исправление Багов](https://github.com/14xyegriz88/WebstoreDOG/issues)
+- [Улучшение пользовательского интерфейса](https://github.com/14xyegriz88/WebstoreDOG/pulls)
