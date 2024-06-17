@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './pages/Home'
 import Cart from './pages/Cart'
+import Card from './pages/Card'
 
 import {
   createBrowserRouter,
@@ -15,6 +16,10 @@ const router = createBrowserRouter([{
 {
   path: '/cart',
   element: <Cart/>
+},
+{
+  path: '/product',
+  element: <Card/>
 }
 
 ])
