@@ -54,3 +54,9 @@ npm run dev
 ## Наши планы
 - [Исправление Багов](https://github.com/14xyegriz88/WebstoreDOG/issues)
 - [Улучшение пользовательского интерфейса](https://github.com/14xyegriz88/WebstoreDOG/pulls)
+
+## Авторы
+- Иван
+- Степан
+- Шамиль 
+- Алексей
