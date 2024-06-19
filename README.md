@@ -60,4 +60,3 @@ npm run dev
 - Степан
 - Шамиль 
 - Алексей
-https://www.youtube.com/watch?v=DelSbvS5jw4
