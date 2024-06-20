@@ -2,6 +2,8 @@ import React from 'react'
 import Home from './pages/Home'
 import Cart from './pages/Cart'
 import Card from './pages/Card'
+import Catalog from './pages/Catalog'
+
 
 import {
   createBrowserRouter,
@@ -10,7 +12,7 @@ import {
 
 
 const router = createBrowserRouter([{
-  path: '/',
+  path: '/', 
   element: <Home/>
 },
 {
@@ -18,14 +20,19 @@ const router = createBrowserRouter([{
   element: <Cart/>
 },
 {
-  path: '/product',
+  path: '/card',
   element: <Card/>
+},
+{
+  path: '/catalog',
+  element: <Catalog/>
 }
 
 ])
 
 
 const App = () => {
+  
   return (
     <div>
       <RouterProvider router={router}/>

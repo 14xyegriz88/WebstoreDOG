@@ -68,7 +68,7 @@ const First = () => {
             </Left>
 
             <Left_butons>
-                <Button1>Купить</Button1>
+                <a href="/card"><Button1>Купить</Button1></a>
                 <Button2>Детали</Button2>
             </Left_butons>
 
