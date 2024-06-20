@@ -42,7 +42,10 @@ const Menu = styled.div`
 `
 
 const Menu_item = styled.div`
-
+    a{
+        text-decoration: none;
+        color: black;
+    }
 `
 
 const Logo_left = styled.div`
@@ -74,7 +77,7 @@ const Navbar_cart = () => {
             <Center>
                 <Menu>
                     <Menu_item>
-                        Продукция
+                        <a href="/catalog">Продукция</a>
                     </Menu_item> 
                     <Menu_item>
                         Уход за собакой
