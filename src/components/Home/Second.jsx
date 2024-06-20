@@ -74,7 +74,7 @@ const RightText = styled.div`
   text-align: center;
   position: relative;
   top: 120px;
-  left: -40px;
+  left: -40px; 
 `
 const RightTextItem = styled.div`
   font-size: 25px;
